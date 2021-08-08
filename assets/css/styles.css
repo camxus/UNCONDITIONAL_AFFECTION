@@ -3,7 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     
+}
+
+@keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
 }
 
 body {
@@ -37,6 +47,23 @@ body {
     color: white;
     font-weight: bold;
     text-decoration:none;
+    opacity: 1;
+    animation: fadeIn 2.5s ease;
+}
+
+.viewphotos {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-bottom: 300px;
+
+}
+
+.gotovideo {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-bottom: 200px;
+
+
 }
 
 .intro h1 {
@@ -54,9 +81,10 @@ body {
     bottom: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: small;
+    font-size: large;
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 
 section {
@@ -86,14 +114,14 @@ section h1 {
 }
 
 .eng {
-    padding-top: 85%;
+    padding-top: 80%;
     grid-area: grid1;
     justify-self: center;
     font-size: 70%;
     text-transform: uppercase;
 }
 .rus {
-    padding-top: 70%;
+    padding-top: 60%;
     grid-area: grid1;
     justify-self: center;
     font-weight: normal;
