@@ -31,12 +31,6 @@ body {
     height: 100vh;
 }
 
-.intro video {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
 .introname {    
     position: absolute;
     background-color: none;
@@ -54,6 +48,7 @@ body {
 .viewphotos {
     position: absolute;
     transform: translate(-50%, -50%);
+    padding-top: 5%;
     padding-bottom: 300px;
     text-align: center;
 
