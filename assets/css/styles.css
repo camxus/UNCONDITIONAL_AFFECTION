@@ -48,13 +48,14 @@ body {
     font-weight: bold;
     text-decoration:none;
     opacity: 1;
-    animation: fadeIn 2.5s ease;
+    animation: fadeIn 1s ease;
 }
 
 .viewphotos {
     position: absolute;
     transform: translate(-50%, -50%);
     padding-bottom: 300px;
+    text-align: center;
 
 }
 
@@ -85,6 +86,10 @@ body {
     font-weight: bold;
     color: white;
     text-decoration: none;
+}
+
+#photos_start {
+    padding-top: 10px;
 }
 
 section {
@@ -139,111 +144,34 @@ section h1 {
     height: auto;
 }
 
-.SCHULBILDUNG1 {
-    padding-top: 100px;
-    grid-area: grid1;
-    justify-self: center;
-}
-
-.SCHULBILDUNG2 {
-    padding-top: 100px;
-    grid-area: grid2;
-    font-weight: bold;
-    justify-self: left;
-}
-
-.SPRACHKENTNISSE1 {
-    padding-top: 100px;
-    grid-area: grid1;
-    justify-self: center;
-}
-
-.SPRACHKENNTISSE2 {
-    padding-top: 100px;
-    grid-area: grid2;
-    font-weight: bold;
-    justify-self: left;
-}
-.BERUFSERFAHRUNG1 {
-    padding-top: 100px;
-    grid-area: grid1;
-    justify-self: center;
-}
-
-.BERUFSERFAHRUNG2 {
-    padding-top: 100px;
-    grid-area: grid2;
-    font-weight: bold;
-    justify-self: left;
-}
-
-.BF2 {
-    padding-top: 100px;
-    grid-area: grid2;
-    font-size: medium;
-    font-weight: bold;
-    justify-self: left;
-    white-space: pre-line;
-}
-
-
-.AK1 {
-    padding-top: 100px;
-    grid-area: grid1;
-    justify-self: center;
-}
-
-.AK2 {
-    padding-top: 100px;
-    grid-area: grid2;
-    font-size: medium;
-    font-weight: bold;
-    justify-self: left;
-    white-space: pre-line;
-}
-
-.BK1 {
-    padding-top: 100px;
-    grid-area: grid1;
-    justify-self: center;
-}
-
-.BK2 {
-    padding-top: 100px;
-    grid-area: grid2;
-    font-size: medium;
-    font-weight: bold;
-    justify-self: left;
-    white-space: pre-line;
-}
-
-
-.mailname{
-    grid-area: mail;
-    justify-self: center;
+.contacts {
+    color: black;
+    font-weight: normal;
+    font-size: 8px;
     position: relative;
-    left: -30px;
-    transform: rotate(270deg);
-    padding-top: 300px;
-    font-size: small;
-    color: gray;
-    font-weight: bold;
-    text-decoration:none;
+    padding-top: 50%;
+    top: -27%;
+    left: 53%;
 }
 
-#CS50 {
+.layer {
+    height: 100vh;   
+ }
+
+.line {
+    background-color: black;
+    height: 50%;
+    width: 1px;
+    z-index: 1;
+    position: sticky;
+    transform: translate(10px, 10px);
+    left: 49%;
+}
+
+.credit {
+    color: black;
+    font-weight: normal;
+    font-size: 7px;
     position: relative;
-    bottom: 1fr;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-#SQL {
-    position: relative;
-    bottom: 1fr;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
+    left: 53%;
+}

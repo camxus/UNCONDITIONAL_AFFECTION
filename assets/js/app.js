@@ -9,7 +9,7 @@ const text2 = intro.querySelector('h1');
 const controller = new ScrollMagic.Controller();
 
 let scene = new ScrollMagic.Scene({
-    duration: 5000,
+    duration: 4000,
     triggerElement: intro,
     triggerHook: 0,
 })
@@ -24,7 +24,7 @@ let scene = new ScrollMagic.Scene({
     const text2Anim = TweenMax.fromTo(text2, 3, { opacity: 1 }, { opacity: 0 });
     
     let scene3 = new ScrollMagic.Scene({
-        duration: 2000,
+        duration: 100,
         triggerElement: intro,
         triggerHook: 0,
     })
@@ -60,10 +60,10 @@ let scene = new ScrollMagic.Scene({
     
     
 //ONLOAD PAUSE
-function loadFrame() {
-    window.scroll(0, 5000)
-};
-window.onload = setTimeout(loadFrame, 3500);
+// function loadFrame() {
+//     window.scroll(0, 5000)
+// };
+// window.onload = setTimeout(loadFrame, 3500);
 
 if (history.scrollRestoration) {
     history.scrollRestoration = 'manual';
