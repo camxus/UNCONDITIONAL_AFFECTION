@@ -145,7 +145,7 @@ section h1 {
 }
 
 .contacts {
-    width: 100%;
+    width: 40%;
     color: black;
     font-weight: normal;
     font-size: 8px;
@@ -170,7 +170,7 @@ section h1 {
 }
 
 .credit {
-    width: 100%;
+    width: 40%;
     color: black;
     font-weight: normal;
     font-size: 7px;
