@@ -111,14 +111,14 @@ section h1 {
 }
 
 .eng {
-    padding-top: 80%;
+    padding-top: 85%;
     grid-area: grid1;
     justify-self: center;
     font-size: 70%;
     text-transform: uppercase;
 }
 .rus {
-    padding-top: 60%;
+    padding-top: 55%;
     grid-area: grid1;
     justify-self: center;
     font-weight: normal;
