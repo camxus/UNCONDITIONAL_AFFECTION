@@ -9,7 +9,7 @@ const text2 = intro.querySelector('h1');
 const controller = new ScrollMagic.Controller();
 
 let scene = new ScrollMagic.Scene({
-    duration: 4000,
+    duration: 2000,
     triggerElement: intro,
     triggerHook: 0,
 })
