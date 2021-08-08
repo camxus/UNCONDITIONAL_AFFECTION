@@ -103,6 +103,7 @@ section h1 {
 }
 
 .CVTEXT {
+    padding: 1%;
     color: black;
     display: grid;
     grid-template-columns:1fr 1fr;
