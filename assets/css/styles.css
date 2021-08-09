@@ -157,11 +157,12 @@ section h1 {
 .contacts {
     width: 40%;
     color: black;
-    font-weight: bold;
-    font-size: 8px;
+    font-weight: normal;
+    font-size: 70%;
     padding-left: 52%;
     white-space: nowrap;
-    /* position: relative; */
+    position: relative;
+    bottom: 50%;
 }
 
 .video {
@@ -176,7 +177,7 @@ section h1 {
 
 .line {
     background-color: black;
-    height: 50%;
+    height: 100%;
     width: 1px;
     z-index: 1;
     position: sticky;
