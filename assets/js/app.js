@@ -1,7 +1,7 @@
 const intro = document.querySelector('.intro');
 const video = intro.querySelector('img');
 const text1 = intro.querySelector('.gotovideo');
-const text3 = intro.querySelector('.intro a');
+const text3 = intro.querySelector('.toptext');
 const links = intro.querySelector('.introlinks');
 const line = intro.querySelector('.topline');
 const text2 = intro.querySelector('h1');
