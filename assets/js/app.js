@@ -82,6 +82,17 @@ let scene = new ScrollMagic.Scene({
     // .addIndicators(controller)
     .setTween(lineAnim)
     .addTo(controller)
+
+    const lineAnim2 = TweenMax.fromTo(line, 3, { opacity: "0" }, { opacity: "1" });
+    
+    let scene7= new ScrollMagic.Scene({
+        duration: 3000,
+        triggerElement: intro,
+        triggerHook: 0,
+    })
+    // .addIndicators(controller)
+    .setTween(lineAnim2)
+    .addTo(controller)
     
     
 //ONLOAD PAUSE
