@@ -72,14 +72,14 @@ let scene = new ScrollMagic.Scene({
     .setTween(linksAnim)
     .addTo(controller)
 
-    const lineAnim = TweenMax.fromTo(line, 3, { height: "0px" }, { height: "100%" });
+    const lineAnim = TweenMax.fromTo(line, 3, { height: "0%" }, { height: "100%" });
     
     let scene6= new ScrollMagic.Scene({
         duration: 3000,
         triggerElement: intro,
         triggerHook: 0,
     })
-    .addIndicators(controller)
+    // .addIndicators(controller)
     .setTween(lineAnim)
     .addTo(controller)
     
