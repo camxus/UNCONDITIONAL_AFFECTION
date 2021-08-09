@@ -42,6 +42,7 @@ body {
     font-weight: bold;
     text-decoration:none;
     opacity: 1;
+    animation: fadeIn 1.5s ease;
 }
 
 .topline {
