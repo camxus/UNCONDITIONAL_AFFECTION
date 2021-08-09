@@ -119,6 +119,10 @@ section h1 {
     text-align: center;
 }
 
+.PD {
+    height: 1fr;
+}
+
 .CVTEXT {
     padding: 1%;
     color: black;
