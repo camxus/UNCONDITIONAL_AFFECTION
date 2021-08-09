@@ -50,6 +50,7 @@ body {
     transform: translate(-50%, -50%);
     padding-bottom: 60%;
     text-align: center;
+    
 
 }
 
@@ -78,6 +79,7 @@ body {
     font-weight: bold;
     color: white;
     text-decoration: none;
+    animation: fadeIn 2s ease;
 }
 
 #photos_start {
