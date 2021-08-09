@@ -198,5 +198,11 @@
     <script src="assets/js/demo.js"></script>
 
     <script src="./assets/js/app.js"></script>
+    <script type="text/javascript">
+        console.log(window.location.href);
+        if(window.location.href != "file:///Users/cam/Desktop/VS%20CODE/DARIA%20KUBELKA%20PROJECT/index.html"){
+            window.location.href=window.location.href.substr(window.location.href,window.location.href.indexOf('#'))
+            }
+        </script>
 </body>
 </html>
