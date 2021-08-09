@@ -3,6 +3,7 @@ const video = intro.querySelector('img');
 const text1 = intro.querySelector('.gotovideo');
 const text3 = intro.querySelector('.viewphotos');
 const links = intro.querySelector('.introlinks');
+const line = intro.querySelector('.topline');
 const text2 = intro.querySelector('h1');
 
 
@@ -69,6 +70,17 @@ let scene = new ScrollMagic.Scene({
     // .addIndicators(controller)
     .setPin(intro)
     .setTween(linksAnim)
+    .addTo(controller)
+
+    const lineAnim = TweenMax.fromTo(line, 3, { height: "0px" }, { height: "100%" });
+    
+    let scene6= new ScrollMagic.Scene({
+        duration: 3000,
+        triggerElement: intro,
+        triggerHook: 0,
+    })
+    .addIndicators(controller)
+    .setTween(lineAnim)
     .addTo(controller)
     
     
