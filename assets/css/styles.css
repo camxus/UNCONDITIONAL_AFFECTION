@@ -83,14 +83,15 @@ body {
 .toptext {
     width: 100%;
     position: absolute;
-    top: 33.4%;
+    top: 50%;
+    transform: translate(0px, -50%);
     left: 10%;
-    height: 59%;
+    /* height: 59%;*/
 }
 
 .intro a {
     position: relative;
-    font-size: 70%;
+    font-size: calc(2vw - 0.8vh);
     font-weight: bold;
     color: black;
     text-decoration: none;
@@ -136,18 +137,18 @@ section h1 {
 }
 
 .eng {
-    padding-top: 85%;
+    padding-top: 80%;
     grid-area: grid1;
     justify-self: center;
-    font-size: 70%;
+    font-size: 1.1vw;
     text-transform: uppercase;
 }
 .rus {
-    padding-top: 55%;
+    padding-top: 52%;
     grid-area: grid1;
     justify-self: center;
     font-weight: normal;
-    font-size: 70%;
+    font-size: 1vw;
     /* font-style: italic; */
     /* text-transform: uppercase; */
 }
@@ -174,7 +175,7 @@ section h1 {
 
 .video {
     width: 100vw;
-    height: 97vh;
+    height: 100vh;
 }
 
 
